@@ -16,6 +16,10 @@ func main() {
     for _, a := range os.Args[1:] {
 		var b []string
 		b = strings.Split(a,"=")
+	    	if b[0] != "-type" {
+			fmt.Println("请按格式书写命令参数")
+			break
+		}
 		switch b[1]{
 		case "1":
 			fmt.Println("最是一年春好处，绝胜烟柳满皇都。")
