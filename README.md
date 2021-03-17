@@ -1,5 +1,5 @@
 # hello-world
 My first step.
 
-hello square!! \n
+hello square!! 
 I've finished the all steps.
