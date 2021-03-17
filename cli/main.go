@@ -8,9 +8,9 @@ import (
 )
 
 func main() {
-	// 
-	var p string
-	flag.StringVar(&p,"type","","type's value can't null")
+
+    var p string
+    flag.StringVar(&p,"type","","type's value can't null")
     flag.Parse()
 
     for _, a := range os.Args[1:] {
